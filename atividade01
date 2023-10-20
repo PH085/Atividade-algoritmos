@@ -1,0 +1,23 @@
+Algoritmo "Atividade 01"
+// Disciplina   :  Algoritmos
+// Professor   : Fraceschini
+// Descrição   : 1. A imobiliária Imóbilis vende apenas terrenos retangulares. Faça um
+// algoritmo para ler as dimensões de um terreno e depois
+// exibir a área do terreno.
+// Autor(a)    : Pedro Henrique Gomes Ferreira
+// Data atual  : 18/10/2023
+Var
+     base,altura,area: real
+
+
+
+Inicio
+   escreval("Digite a comprimento do terreno :")
+   leia(base)
+   escreval("Digite a largura do tereno :")
+   leia(altura)
+   area<- base*altura
+   escreval("A área do terreno é :", area , " M²")
+
+
+Fimalgoritmo
