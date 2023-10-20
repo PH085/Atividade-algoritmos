@@ -1,0 +1,23 @@
+Algoritmo "Atividade 06"
+// Disciplina   :  Algoritmos
+// Professor   : Fraceschini
+// Descrição   : O restaurante a quilo Bem-Bão cobra R$12,00 por cada quilo de
+// refeição. Escreva um algoritmo que leia o peso do prato montado
+// pelo cliente (em quilos) e imprima o valor a pagar. Assuma que a balança
+// já desconte o peso do prato
+// Autor(a)    : Pedro Henrique Gomes Ferreira
+// Data atual  : 18/10/2023
+Var
+
+kg,valorapg: real
+
+Inicio
+
+escreval("Peso do seu prato: ")
+leia(kg)
+valorapg<-kg*12
+ escreval("O valor da sua refeição foi :", valorapg, " R$")
+
+
+
+Fimalgoritmo
