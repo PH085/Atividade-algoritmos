@@ -1,0 +1,25 @@
+Algoritmo "Atividade 07"
+// Disciplina   :  Algoritmos
+// Professor   : Fraceschini
+// Descrição   :   Entrar com o dia e o mês de uma data e informar quantos dias
+// se passaram desde o início do ano. Esqueça a questão dos anos bissextos e
+// considere sempre que um mês possui 30 dias
+// Autor(a)    : Pedro Henrique Gomes Ferreira
+// Data atual  : 18/10/2023
+Var
+
+diaspas,dia,mes:inteiro
+
+
+
+Inicio
+
+escreval("Informe o mês atual")
+leia(mes)
+escreval("Informe o dia atual: ")
+leia(dia)
+diaspas<-(mes*30+dia-30)
+escreval("Desse ano ja se passaram: ", diaspas, " dias")
+
+
+Fimalgoritmo
