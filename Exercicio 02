@@ -1,0 +1,21 @@
+Algoritmo "Atividade 02"
+// Disciplina   :  Algoritmos
+// Professor   : Fraceschini
+// Descrição   : Faça um algoritmo para calcular
+// quantas ferraduras são necessárias para equipar
+// todos os cavalos comprados para um haras
+// Autor(a)    : Pedro Henrique Gomes Ferreira
+// Data atual  : 18/10/2023
+Var
+   qferra,qcavalo:inteiro
+
+
+
+Inicio
+      escreval("Quantos cavalos o senhor(a) possui? ")
+      leia(qcavalo)
+      qferra<-qcavalo*4
+      escreval("O senhor(a) precisará de ",qferra ," ferraduras para equipar todos os seus cavalos")
+
+
+Fimalgoritmo
