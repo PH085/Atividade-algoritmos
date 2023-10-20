@@ -1,0 +1,30 @@
+Algoritmo "Atividade 08"
+// Disciplina   :  Algoritmos
+// Professor   : Fraceschini
+// Descrição   : Faça um algoritmo para ler três notas de um aluno em uma
+// disciplina e imprimir a sua média ponderada
+// (as notas tem pesos respectivos de 1, 2 e 3)
+// Autor(a)    : Pedro Henrique Gomes Ferreira
+// Data atual  : 18/10/2023
+Var
+
+n1,n2,n3,media: real
+
+Inicio
+escreval("Informe sua primeira nota: ")
+leia(n1)
+escreval("Informe sua segunda nota: ")
+leia(n2)
+escreval("Informe sua terceira nota: ")
+leia(n3)
+media<-(n1*1+n2*2+n3*3)/6
+escreval("Sua media é: ", media)
+se (media>=6) entao
+  escreval("Você passou de ano, Parabéns")
+  fimse
+  se (media>3) entao
+  escreval("você esta de recuperação, estude mais")
+  senao
+  escreva("você esta reprovado")
+  fimse
+Fimalgoritmo
