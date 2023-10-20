@@ -1,0 +1,24 @@
+Algoritmo "Atividade 20"
+//Disciplina : Algoritmos
+//Professor : Fraceschini
+//Descrição : Uma confecção produz X blusas de lã e para isto gasta uma certa
+//quantidade de novelos. Faça um algoritmo para calcular quantos novelos de
+//lã ela gasta por blusa.
+//Autor(a) : Pedro Henrique Gomes Ferreira
+//Data atual : 18/10/2023
+Var
+    qntdblusa,qntla:inteiro
+    gasto:real
+    
+
+
+Inicio
+          escreval("           CONFECÇÃO CORINTHIANS EU TE AMO")
+    escreval("Informe o numero de novelos de lãs que foram gastos:")
+    leia(qntla)
+    escreval("Informe o numero de blusas que foram confeccionadas:")
+    leia(qntdblusa)
+    gasto<- qntla/qntdblusa
+    escreva("Por blusa a confecção gastou",gasto," de novelos")
+
+Fimalgoritmo
