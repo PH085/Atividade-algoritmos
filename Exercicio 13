@@ -1,0 +1,36 @@
+Algoritmo "Atividade 13"
+//Disciplina : Algoritmos
+//Professor : Fraceschini
+//Descrição :  Ler um número inteiro (assuma até três dígitos) e imprimir
+//a saída da seguinte forma: CENTENA = x DEZENA = x UNIDADE = x
+//Autor(a) : Pedro Henrique Gomes Ferreira
+//Data atual : 18/10/2023
+Var
+
+numero,cent,deze,unid: inteiro
+
+Inicio
+
+Escreva("Digite um Nº até 3 digitos:")
+Leia(numero)
+
+cent<- numero div 100
+deze<- (numero mod 100)div 10
+unid<- numero mod 10
+
+
+se numero>999 entao
+              escreva("Digite novamente")
+senao
+     Escreval("Centenas:",cent)
+     Escreval("Dezenas:",deze)
+     Escreva("Unidades:",unid)
+
+fimse
+
+
+
+
+
+
+Fimalgoritmo
