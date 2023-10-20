@@ -1,0 +1,24 @@
+Algoritmo "Atividade 12"
+// Disciplina   :  Algoritmos
+// Professor   : Fraceschini
+// Descrição   : Faça um algoritmo para ler o salário de um funcionário e
+// aumentá-Io em 15%. Após o aumento, desconte 8% de impostos.
+// Imprima o salário inicial, o salário com o aumento e o salário final
+// Autor(a)    : Pedro Henrique Gomes Ferreira
+// Data atual  : 18/10/2023
+Var
+   salario,aum,dim,dimp: real
+
+
+Inicio
+   escreval("Seu salário: ")
+   leia(salario)
+   aum<-salario*(15/100)+salario
+   dim<-aum*(8/100)-aum
+   dimp<-dim*(-1)
+   escreval("Seu sálario inicial era de ", salario , " R$")
+   escreval("Com o aumentou ficou", aum , " R$")
+    escreval("E com os descontos do inss seu salario final é de", dimp , " R$")
+
+
+Fimalgoritmo
