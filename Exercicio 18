@@ -1,0 +1,27 @@
+Algoritmo "Atividade 18"
+//Disciplina : Algoritmos
+//Professor : Fraceschini
+//Descrição :  A empresa Hipotheticus paga R$10,00 por hora normal trabalhada,
+//e R$15,00 por hora extra. Faça um algoritmo para calcular e imprimir o
+//salário bruto e o salário líquido de um determinado funcionário.
+//Considere que o salário líquido é igual ao salário bruto
+//descontando-se 10% de impostos
+//Autor(a) : Pedro Henrique Gomes Ferreira
+//Data atual : 18/10/2023
+Var
+   hora,horaex,salario,salarioli: real
+
+
+
+Inicio
+   escreval("Informe as horas trabalhadas nesse mês:")
+   leia(hora)
+   escreval("Informe as horas extras trabalhadas:")
+   leia(horaex)
+   salario<-(hora*10)+(horaex*15)
+   salarioli<-(salario*10/100)-salario
+   escreval("Seu sálario bruto esse mês é de :",salario, " R$")
+   escreval("Seu sálario liquido esse Mês é de:" ,salarioli*-1, " R$")
+
+
+Fimalgoritmo
