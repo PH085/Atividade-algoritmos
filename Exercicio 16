@@ -1,0 +1,29 @@
+Algoritmo "Atividade 16"
+//Disciplina : Algoritmos
+//Professor : Fraceschini
+//Descrição :  A lanchonete Gostosura vende apenas um tipo de sanduíche, cujo
+//recheio inclui duas fatias de queijo, uma fatia de presunto e uma rodela
+//de hambúrguer. Sabendo que cada fatia de queijo ou presunto pesa 50 gramas,
+//e que a rodela de hambúrguer pesa 100 gramas, faça um algoritmo em que o
+//dono forneça a quantidade de sanduíches a fazer, e a máquina informe as
+//quantidades (em quilos) de queijo, presunto e carne necessários para compra.
+//Autor(a) : Pedro Henrique Gomes Ferreira
+//Data atual : 18/10/2023
+Var
+   qntsan,qntquei,qntpresun,qnthamb: inteiro
+   
+
+
+
+Inicio
+   escreval("Informe quantos sanduinches deseja fazer: ")
+   leia(qntsan)
+   qntquei<-qntsan*100
+   qntpresun<-qntsan*50
+   qnthamb<-qntsan*100
+   escreval("Serão necessarios comprar ", qntquei ," gramas de queijo ,", qntpresun, " gramas de presunto e", qnthamb ," gramas de carne de hamburguer" )
+
+
+
+
+Fimalgoritmo
